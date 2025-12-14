@@ -1,7 +1,7 @@
 # 🔮 CodeDarpan - Developer Profiling System
 
 > **Theme:** AI + Code Analysis
-> **Built by:** [Your Name] | 3rd Year BSc Student
+> **Built by:** [Krutika Kalvankar] | 3rd Year BSc Student
 
 ![CodeDarpan Dashboard](./screenshot.png)
 
@@ -94,4 +94,5 @@ Security Scan: Add a feature to check for leaked API keys in the code.
 
 
 # Built with ❤️ Thank You
+
 
