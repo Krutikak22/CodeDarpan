@@ -8,11 +8,9 @@
 ---
 
 ## 🧐 The Problem
-creating an intelligent system that can evaluate a student’s GitHub 
-repository and convert it into a meaningful Score + Summary + Personalized Roadmap. 
-In today’s tech world, a GitHub repository is a developer’s tangible work but most 
-students don’t know how good, clean, or complete their code looks to a recruiter or 
-mentor. 
+Creating an intelligent system that can evaluate a student’s GitHub repository and convert it into a meaningful Score + Summary + Personalized Roadmap.
+
+In today’s tech world, a GitHub repository is a developer’s tangible work but most students don’t know how good, clean, or complete their code looks to a recruiter or mentor.
 
 ## 💡 My Approach (The Solution)
 I built **CodeDarpan** (Code Mirror) to solve this. My goal was to build a system that acts like an "Automated Senior Developer" that reviews your code in seconds.
@@ -68,21 +66,20 @@ cd backend
 # Install dependencies
 pip install fastapi uvicorn httpx google-generativeai
 # Run the server
-
 python main.py
+```
 
----
-
-### 2. Frontend Setup
+###2. Frontend Setup
 ```bash
+
 cd frontend
 # Install dependencies
 npm install
 # Run the React app
 npm run dev
+```
 
-
-🧠 Challenges & Learnings
+##🧠 Challenges & Learnings
 CORS Issues: Initially, my Frontend couldn't talk to the Backend. I learned how to configure CORSMiddleware in FastAPI to allow cross-origin requests.
 
 AI Latency: The AI sometimes took time to respond. I implemented a loading state in React to improve the user experience.
@@ -90,10 +87,10 @@ AI Latency: The AI sometimes took time to respond. I implemented a loading state
 Screenshotting: Getting html2canvas to capture the CSS gradients was tricky. I learned that some CSS properties need fallbacks to be captured correctly.
 
 
-🔮 Future Scope
+##🔮 Future Scope
 Compare Mode: Compare two repositories side-by-side to see which is better maintained.
 
 Security Scan: Add a feature to check for leaked API keys in the code.
 
-Thank You ❤️
 
+#Built with ❤️ Thank You
