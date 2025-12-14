@@ -3,6 +3,7 @@
 > **Theme:** AI + Code Analysis
 > **Built by:** [Your Name] | 3rd Year BSc Student
 
+![CodeDarpan Dashboard](./screenshot.png)
 
 ---
 
@@ -67,4 +68,5 @@ cd backend
 # Install dependencies
 pip install fastapi uvicorn httpx google-generativeai
 # Run the server
+
 python main.py
