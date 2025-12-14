@@ -69,7 +69,7 @@ pip install fastapi uvicorn httpx google-generativeai
 python main.py
 ```
 
-###2. Frontend Setup
+### 2. Frontend Setup
 ```bash
 
 cd frontend
@@ -79,7 +79,7 @@ npm install
 npm run dev
 ```
 
-##🧠 Challenges & Learnings
+## 🧠 Challenges & Learnings
 CORS Issues: Initially, my Frontend couldn't talk to the Backend. I learned how to configure CORSMiddleware in FastAPI to allow cross-origin requests.
 
 AI Latency: The AI sometimes took time to respond. I implemented a loading state in React to improve the user experience.
@@ -87,10 +87,11 @@ AI Latency: The AI sometimes took time to respond. I implemented a loading state
 Screenshotting: Getting html2canvas to capture the CSS gradients was tricky. I learned that some CSS properties need fallbacks to be captured correctly.
 
 
-##🔮 Future Scope
+## 🔮 Future Scope
 Compare Mode: Compare two repositories side-by-side to see which is better maintained.
 
 Security Scan: Add a feature to check for leaked API keys in the code.
 
 
-#Built with ❤️ Thank You
+# Built with ❤️ Thank You
+
