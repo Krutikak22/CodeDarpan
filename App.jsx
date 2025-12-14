@@ -36,8 +36,8 @@ function App() {
   const handleDownload = async () => {
     if (resultCardRef.current) {
       const canvas = await html2canvas(resultCardRef.current, {
-        backgroundColor: "#18181b", // Matches the card bg color
-        scale: 3, // Higher scale for crisp text
+        backgroundColor: "#18181b", 
+        scale: 3,
         useCORS: true
       });
       const image = canvas.toDataURL("image/png");
