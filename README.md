@@ -71,7 +71,10 @@ pip install fastapi uvicorn httpx google-generativeai
 
 python main.py
 
+---
 
+### 2. Frontend Setup
+```bash
 cd frontend
 # Install dependencies
 npm install
@@ -93,3 +96,4 @@ Compare Mode: Compare two repositories side-by-side to see which is better maint
 Security Scan: Add a feature to check for leaked API keys in the code.
 
 Thank You ❤️
+
