@@ -8,7 +8,6 @@ import base64
 import google.generativeai as genai
 
 # --- CONFIGURATION ---
-# Paste your key here. Even if it fails, the app will now still work!
 GEMINI_API_KEY = "AIzaSyCXn4rvP6Ux31cj5fHZaDusMSQweq7kTvc" 
 
 genai.configure(api_key=GEMINI_API_KEY)
@@ -43,7 +42,6 @@ def decode_github_content(encoded_content):
 
 # --- THE FIX: SAFETY MODE AI ANALYSIS ---
 async def get_ai_analysis(readme_content, file_structure):
-    # 1. Try to use the real AI
     try:
         if not model: raise Exception("Model not loaded")
         
@@ -158,4 +156,5 @@ async def analyze_repo(request: RepoRequest):
         }
 
 if __name__ == "__main__":
+
     uvicorn.run(app, host="0.0.0.0", port=8000)
